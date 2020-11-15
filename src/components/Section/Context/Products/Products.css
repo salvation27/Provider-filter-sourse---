@@ -1,0 +1,50 @@
+.card {
+  /* width: 300px; */
+  /* height: 300px; */
+  background: #ccc;
+  border:1px solid #37B5A5;
+  transition:.2s;
+  padding: 10px;
+  margin:4px 0px
+}
+#product a {
+text-decoration: none;
+color: rgb(37, 20, 37);
+}
+
+
+.card:hover {
+background: rgb(136, 103, 103);
+color:#fff;
+-webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+}
+.details img {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+.details h2 {
+  text-align: center;
+}
+.details span {
+  text-align: center;
+}
+.card_description {
+  color: rgb(134, 7, 7);
+  font-weight: 700;
+  font-size: 17px;
+}
+.card:hover .card_description{
+  color:rgb(197, 226, 194);
+}
+.detail_link strong {
+ margin-right: 20px;
+}
+.detail_link {
+  margin-top: 30px;
+}
+.margin_top h1 {
+  color: #EDB749;
+}

@@ -1,0 +1,12 @@
+.serch_box input {
+  height: 45px;
+  width: 300px;
+}
+/* .serch_box {
+  display: flex;
+  justify-content: center;
+} */
+
+.serch_box {
+margin:20px 0px;
+}

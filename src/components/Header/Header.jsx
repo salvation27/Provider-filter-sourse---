@@ -33,12 +33,12 @@ menuToggle= () => {
        </Link>
          <div className="header_menu flex header_menu_wrap">
            <div className="header_menu_wrap">
-             <nav className={toggle ? "toggle":""}>
+             <nav className='nav'>
               <NavLink to='/'>Главная</NavLink>
-              <NavLink to='/posts'>Товары</NavLink>
+              {/* <NavLink to='/posts'>Товары</NavLink>
               <NavLink to='/contacts'>Контакты</NavLink>
               <NavLink to='/about'>О нас</NavLink>
-              <NavLink to='/login'>Логин</NavLink>
+              <NavLink to='/login'>Логин</NavLink> */}
              </nav>
            </div>
            <div className="close" onClick={this.menuToggle}>

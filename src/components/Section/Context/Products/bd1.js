@@ -76,6 +76,33 @@ let posts = [
   'youtubLink': 'https://www.youtube.com/watch?v=-HQaDfVPCtg&list=PLA3mB8lPnLIO2FvH3fH8KTaOgkrdBKDmP&index=1',
   'description':'Поле поиска по определенному свойству'
  },
+ {
+  '_id':'9',
+  'title': 'Modal,Animation(Модальное окно, анимация,показать скрыть по клику) плохо работает',
+  'way':'React',
+  'gitHubLink': 'https://github.com/salvation27/modal-animation-Show-hiden-el',
+  'gitHubPage': 'https://salvation27.github.io/modal-animation-Show-hiden-el/',
+  'youtubLink': 'https://www.youtube.com/watch?v=d3aI1Dt0Z50',
+  'description':'Modal,Animation(Модальное окно, анимация,показать скрыть по клику)  использовал npm install --save styled-components npm install react-spring@next npm install react-icons --save Появление при нажатии на кнопку элемента через Хук useState'
+ },
+ {
+  '_id':'10',
+  'title': 'Filter-Lightbox-Gallery(Фильтрация кнопками. Галлерея.Хуки)',
+  'way':'React',
+  'gitHubLink': 'https://github.com/salvation27/Filter-Lightbox-Gallery',
+  'gitHubPage': 'https://salvation27.github.io/Filter-Lightbox-Gallery/',
+  'youtubLink': 'https://www.youtube.com/watch?v=hlgvEn_bCd4',
+  'description':'Галлерея картинок с увеличением Лайтбокс библиотеки . Фильтрация кнопками.Хуки'
+ },
+ {
+  '_id':'11',
+  'title': 'Деплой приложения(Арчаков) Deploy',
+  'way':'React',
+  'gitHubLink': '',
+  'gitHubPage': '',
+  'youtubLink': 'https://www.youtube.com/watch?v=-pJN9faoa8E&t=13s',
+  'description':'Деплой приложения в разные хостинги'
+ },
 ]
 
 export default posts

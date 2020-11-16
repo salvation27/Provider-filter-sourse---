@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import logo from '../../logo.svg'
 
-import {Link} from 'react-router-dom'
+import {Link,NavLink} from 'react-router-dom'
 import {DataContext} from '../Section/Context/Context'
 
 
@@ -26,17 +26,19 @@ menuToggle= () => {
      <header>
        <div className="container">
        <div className="menu flex">
-         <div className="header_logo">
+       <Link to='/'>
+       <div className="header_logo">
             <img src={logo} alt=""/>
          </div>
+       </Link>
          <div className="header_menu flex header_menu_wrap">
            <div className="header_menu_wrap">
              <nav className={toggle ? "toggle":""}>
-              <Link to='/'>Главная</Link>
-              <Link to='/posts'>Товары</Link>
-              <Link to='/contacts'>Контакты</Link>
-              <Link to='/about'>О нас</Link>
-              <Link to='/login'>Логин</Link>
+              <NavLink to='/'>Главная</NavLink>
+              <NavLink to='/posts'>Товары</NavLink>
+              <NavLink to='/contacts'>Контакты</NavLink>
+              <NavLink to='/about'>О нас</NavLink>
+              <NavLink to='/login'>Логин</NavLink>
              </nav>
            </div>
            <div className="close" onClick={this.menuToggle}>

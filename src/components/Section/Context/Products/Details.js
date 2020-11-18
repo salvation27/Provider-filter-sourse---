@@ -47,9 +47,9 @@ componentDidMount(){
                       </div>
                   } 
                   {
-                    item.gitHubPage && 
+                    item.hostPage && 
                       <div className='detail_link detail_link_color'>
-                          <strong><a target="blank" href={item.gitHubPage}>Git-page</a></strong>
+                          <strong><a target="blank" href={item.hostPage}>Git-page</a></strong>
                       </div>
                   }
                     {

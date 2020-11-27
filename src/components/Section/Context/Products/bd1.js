@@ -121,6 +121,15 @@ let posts = [
   'youtubLink': '',
   'description':'Много уровневое выпадающее меню'
  },
+ {
+  '_id':'14',
+  'title': 'Mini shop from Basir(магазин,корзина счетчик корзины,уменьшение делает удаление товара)',
+  'way':'React-shop',
+  'gitHubLink': 'https://github.com/salvation27/small-shop-basir',
+  'hostPage': 'https://salvation27.github.io/small-shop-basir/',
+  'youtubLink': 'https://www.youtube.com/watch?v=AmIdY1Eb8tY',
+  'description':'Небольшой магазин,корзина,удаление товара при уменьшении колличества продуктов'
+ },
 ]
 
 export default posts

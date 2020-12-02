@@ -32,7 +32,7 @@ let posts = [
  },
  {
   '_id':'4',
-  'title': 'Фильтрация по категориям при нажатии на кнопку(Filter by category)',
+  'title': 'Фильтрация по категориям при нажатии на кнопку(Filter(Class) by category)',
   cat:'react',
   'way':'React',
   'gitHubLink': 'https://github.com/salvation27/Filter-category-by-button',
@@ -87,7 +87,7 @@ let posts = [
  },
  {
   '_id':'10',
-  'title': 'Filter-Lightbox-Gallery(Фильтрация кнопками. Галлерея.Хуки)',
+  'title': 'Filter(Hooks)-Lightbox-Gallery(Фильтрация кнопками. Галлерея.Хуки)',
   'way':'React',
   'gitHubLink': 'https://github.com/salvation27/Filter-Lightbox-Gallery',
   'hostPage': 'https://salvation27.github.io/Filter-Lightbox-Gallery/',

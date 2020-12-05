@@ -130,6 +130,15 @@ let posts = [
   'youtubLink': 'https://www.youtube.com/watch?v=AmIdY1Eb8tY',
   'description':'Небольшой магазин,корзина,удаление товара при уменьшении колличества продуктов'
  },
+ {
+  '_id':'15',
+  'title': 'Modal Frame-motion(модальное окно, Анимация Frame-motion)',
+  'way':'React',
+  'gitHubLink': 'https://github.com/salvation27/react-modal-frame-motion',
+  'hostPage': 'https://salvation27.github.io/react-modal-frame-motion/',
+  'youtubLink': 'https://www.youtube.com/watch?v=sxFyVfb5RME&list=PLA3mB8lPnLIOiDQpUxkt6wVoApRV5J_NB&index=22&t=151s',
+  'description':'Модальное окно с анимацией'
+ },
 ]
 
 export default posts

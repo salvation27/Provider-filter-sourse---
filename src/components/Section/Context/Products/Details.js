@@ -14,7 +14,7 @@ export default class Details extends Component {
     if(this.props.match.params.id){
       const res = this.context.posts
       const data = res.filter((item)=>{
-        return item._id === this.props.match.params.id
+        return item.fields.id === this.props.match.params.id
       })
       this.setState({post:data})
     }
@@ -26,6 +26,7 @@ componentDidMount(){
   render() {
    
     const {post} = this.state
+
     return (
       <>
         {
@@ -35,28 +36,28 @@ componentDidMount(){
                 <div className="box">
                   <div className="row">
                     <h2>
-                      {item.title}
+                      {item.fields.title}
                     </h2>
                     <div className='detail_link'>
-                    <strong>Описание:</strong> {item.description}
+                    <strong>Описание:</strong> {item.fields.description}
                     </div>
                   {
-                    item.gitHubLink && 
+                    item.fields.gitLink && 
                       <div className='detail_link detail_link_color'>
-                          <strong><a target="blank" href={item.gitHubLink}>Git-code</a></strong>
+                          <strong><a target="blank" href={item.fields.gitLink}>Git-code</a></strong>
                       </div>
                   } 
                   {
-                    item.hostPage && 
+                    item.fields.hostPage && 
                       <div className='detail_link detail_link_color'>
-                          <strong><a target="blank" href={item.hostPage}>Git-page</a></strong>
+                          <strong><a target="blank" href={item.fields.hostPage}>Git-page</a></strong>
                       </div>
                   }
                     {
-                      item.youtubLink && 
+                      item.fields.youtubLink && 
                       <div className='detail_link detail_link_color'>
                         <strong>
-                          <a target="blank" href={item.youtubLink}>Урок на YouTybe</a>
+                          <a target="blank" href={item.fields.youtubLink}>Урок на YouTybe</a>
                         </strong>
                       </div>
                     }

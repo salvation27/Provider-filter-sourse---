@@ -14,11 +14,14 @@ export default function Buttons({handleBtns}) {
         value='react'
         >
         React</button>
-
+      
+        <button 
+      onClick={handleBtns}
+      value='javascript'>Javascript</button>
 
       <button 
       onClick={handleBtns}
-      value='javascript'>Javascript</button>
+      value='css'>Css</button>
 
 
     </div>

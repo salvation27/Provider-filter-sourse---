@@ -70,7 +70,7 @@ setProducts = products => {
     return (
   
       <>
-      <h1>Полезное по реакту</h1>
+      <h1>Полезное по реакту и не только</h1>
 
       <Buttons handleBtns={this.handleBtns} rooms={this.state.itemsAll} />
       <Serch handelInput =  {this.handelInput} />

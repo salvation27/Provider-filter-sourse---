@@ -7,4 +7,6 @@
 2-git commit -m '1.1v'
 3-git push origin main
 
+3-git push origin contentful
+
 хостинг  где лежит  https://provider-filter-sourse.vercel.app/

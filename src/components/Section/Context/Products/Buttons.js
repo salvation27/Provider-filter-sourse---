@@ -18,6 +18,9 @@ export default function Buttons({handleBtns}) {
         <button 
       onClick={handleBtns}
       value='javascript'>Javascript</button>
+      <button 
+      onClick={handleBtns}
+      value='js_l'>Javascript-урок</button>
 
       <button 
       onClick={handleBtns}

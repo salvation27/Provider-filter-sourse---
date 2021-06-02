@@ -21,7 +21,9 @@ export default function Buttons({handleBtns}) {
       <button 
       onClick={handleBtns}
       value='js_l'>Javascript-урок</button>
-
+        <button 
+      onClick={handleBtns}
+      value='js_task'>Javascript-задачки</button>
       <button 
       onClick={handleBtns}
       value='css'>Css</button>

@@ -36,7 +36,6 @@ export  class DataProvider extends Component {
 
   render() {
     const {posts} = this.state
-    console.log('444',posts);
     return (
       <DataContext.Provider value = {{posts}}>
         {this.props.children}
